@@ -5,59 +5,176 @@
 
 /* header */
 
-.conponents_header{
-    background-color: white;
-    padding: 1%;
-    height: 11.9vh;
-    border-bottom: 2px solid #4F83B4 ;
-    display: flex;
-    justify-content: space-between;
+.conponents_header {
+  background-color: white;
+  padding: 1%;
+  height: 11.9vh;
+  border-bottom: 2px solid #4F83B4;
+  display: flex;
+  justify-content: space-between;
 }
 
-.perfil{
+.perfil {
   font-size: 5rem;
 }
-.conponents_main{
-    height: 100%;
-    width: 100%;
+
+.conponents_main {
+  height: 100%;
+  width: 100%;
 }
 
 /* main */
 
-.header_aplicacao{
+.header_aplicacao {
   width: 100%;
-  height: 15vh;
+  height: 9vh;
   display: flex;
   flex-direction: column;
 }
 
-.voltar{
+.voltar {
   width: max-content;
   height: max-content;
   display: flex;
-  align-items:center ;
+  align-items: center;
   gap: 30px;
   padding-left: 19px;
   padding-top: 19px;
 }
 
-.botton-voltar{
+.botton-voltar {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   font-weight: 600;
   color: #4F83B4;
 }
 
+.apresentar_materia_professor {
+  width: 100%;
+  height: 29vh;
+  display: flex;
+  justify-content: center;
+}
+
+.materia_professor {
+  width: 80%;
+  height: 70%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 38px;
+  box-shadow: 1px 1px 1px 1px;
+}
+
+.apresentar_materia {
+  width: max-content;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.img_apresentar_materia {
+  width: 100px;
+  height: 120px;
+  border-radius: 10%;
+}
+
+.nome_materia {
+  font-weight: 1000;
+  font-size: 2rem;
+  font-style: normal;
+  color: #4F83B4;
+  font-family: 'Poppins', sans-serif;
+}
+
+.apresentar_professor {
+  height: 140px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.professor {
+  font-weight: 1000;
+  font-size: 2rem;
+  font-style: normal;
+  color: #4F83B4;
+  font-family: 'Poppins', sans-serif;
+}
+
+.img_professor {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.img_name_professor {
+  width: 90%;
+  height: 400px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding-left: 10px;
+  border-radius: 10%;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.nome_professor {
+  font-weight: 1000;
+  font-size: 1rem;
+  font-style: normal;
+  color: #4F83B4;
+  font-family: 'Poppins', sans-serif;
+}
+
+.box_titulo {
+  display: flex;
+  align-items: center;
+  margin: 0.5%;
+  gap: 15px;
+}
+
+.sss {
+  width: 50px;
+  height: 50px;
+}
+
+.text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.main {
+  display: grid;
+  width: 100%;
+  height: 50vh;
+  background-color: black;
+  grid-template-columns: 1fr 1fr;
+}
+
+.input_cards{
+  background-color: blue;
+}
+
+.filtro{
+  background-color: blueviolet;
+}
+
 
 
 /* Footer  */
- .Copyright{
-    height: 9.1vh;
-    width: 100%;
-    font-family: 'Poppins', sans-serif;
-    display: flex;
-    background-color: #4F83B4;
-    color: white;
-    justify-content: center;
-    align-items: center;
- }
+.Copyright {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  background-color: #4F83B4;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
